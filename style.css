@@ -2,8 +2,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    background: #020617;
-
+    background: #020617;    
 }
 
 .heading {
@@ -30,96 +29,64 @@ body {
 }
 
 .button {
-
     padding: 18px 30px;
-
-    background: #a12424;
-
+    background: linear-gradient(135deg, #475772, #183574);
     border-radius: 40px;
-
     font-weight: bold;
-
     transition: .4s;
-    
-
 }
 
 .button:hover {
-
-    background: rgb(214, 10, 10);
-
-    color: rgb(255, 255, 255);
-
+    background: linear-gradient(135deg,#0c1f47, #051c5a);
+    color: white;
     transform: translateY(-5px);
-
 }
 
 .button2 {
-
     padding: 14px 35px;
-
-    border: 2px solid rgb(243, 247, 247);
-
+    border: 2px solid #60a5fa;
     border-radius: 40px;
-
     transition: .4s;
-
 }
 
 .button2:hover {
-
-    background: rgb(214, 10, 10);
-
+    background: #2563eb;
+    color: white;
 }
-
 .profile {
-
     width: 420px;
-
     border-radius: 15%;
-
-    box-shadow: 0 0 60px rgb(221, 245, 7);
-    border: 3px solid rgb(238, 233, 233);
-
+    box-shadow: 0 0 60px rgba(59,130,246,.8);
+    border: 3px solid #60a5fa;
 }
 
 .card {
-
     padding: 40px;
-
     border-radius: 20px;
-
-    background:  #a12424;
-
+    background: linear-gradient(135deg,#1d4ed8,#2563eb);
     text-align: center;
-
     font-size: 22px;
-
     transition: .4s;
-
-    border: 2px solid #feffff;
-    box-shadow: 0 0 30px rgb(219, 73, 15);
-
+    border: 2px solid #60a5fa;
+    box-shadow: 0 0 25px rgba(37,99,235,.45);
 }
 
 .card:hover {
-
     transform: translateY(-10px);
-
-    background:  #c92d2d;
-
+    background: linear-gradient(135deg,#133170,#1f4d97);
 }
 
 .project {
-
-    background: #a12424;
-
+    background: linear-gradient(135deg,#495985,#122b61);
     padding: 25px;
-
     border-radius: 10px;
-
     transition: .4s;
+    border: 1px solid rgba(96,165,250,.3);
+}
 
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(59,130,246,.45);
 }
 
 .project img {
@@ -130,30 +97,22 @@ body {
 
 }
 
-.project:hover {
-
-    transform: scale(1.05);
-
-}
 
 .input {
-
     width: 100%;
-
     padding: 18px;
-
-    background: #3d0808;
-
+    background: #0f172a;
+    color: white;
+    border: 1px solid #3b82f6;
     cursor: pointer;
-
-    
-
     border-radius: 12px;
-
     outline: none;
-
     margin-top: 15px;
+}
 
+.input:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 15px rgba(96,165,250,.5);
 }
 
 .social {
@@ -190,7 +149,7 @@ body {
 
     height: 350px;
 
-    background: rgb(247, 21, 5);
+    background: rgb(22, 39, 141);
 
     top: -100px;
 
@@ -204,7 +163,7 @@ body {
 
     height: 300px;
 
-    background: rgb(255, 0, 0);
+    background: rgb(17, 3, 95);
 
     right: -100px;
 
@@ -218,7 +177,7 @@ body {
 
     height: 300px;
 
-    background: rgb(255, 1, 1);
+    background: rgb(11, 47, 82);
 
     bottom: -100px;
 
