@@ -192,6 +192,11 @@ img {
     transition: .35s;
     border: 1px solid rgba(96, 165, 250, .3);
 }
+.project:hover {
+    transform: translateY(-8px);
+    border-color: rgba(245, 183, 0, 0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .45);
+}
 
 
 .project-img-wrap {
