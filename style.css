@@ -208,9 +208,6 @@ img {
     transition: transform .5s ease;
 }
 
-.project:hover .project-img-wrap img {
-    transform: scale(1.08);
-}
 
 /* ---------- Timeline (Education) ---------- */
 
